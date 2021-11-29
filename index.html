@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keep Notes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container wrapper">
+            <p>My Notes App</p>
+            <form action="">
+                <input type="text" id="note-title" placeholder="Note Title">
+                <textarea id="note-text" placeholder="Note Details"></textarea>
+
+                <button id="add-btn">Add Note</button>
+            </form>
+        </div>
+    </header>
+
+    <section>
+        <div class="container">
+            <h2>Your Notes</h2>
+            <hr>
+            <div id="notes">
+
+                <div class="note">
+                    <p class="note-counter"></p>
+                    <h3 class="note-title"></h3>
+                    <p class="note-text"></p>
+                    <button class="note-btn">Delete Note</button>
+                    <button class="note-btn edit-btn">Edit Note</button>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
